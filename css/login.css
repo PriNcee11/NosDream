@@ -1,0 +1,32 @@
+input{
+    border-width: medium medium 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color;
+    background: transparent;
+}
+
+.login{
+    margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+    background: #0006;
+    border: 1px white solid;
+    color: white;
+}
+button {
+    font-size: 18px;
+    height: 30px;
+    line-height: 45px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 178px;
+    background-color: #EA1A1A;
+    border: 1px solid #EA1A1A;
+    color: #fff !important;
+}
+button:hover {
+    background-color:  	white;
+    color: #EA1A1A !important;
+    border: 2px solid #EA1A1A;
+}

@@ -1,0 +1,167 @@
+.cont-main{
+
+}
+.peli-left{
+  float: left;
+  width: 30%;
+}
+.peli-right{
+  float: left;
+  width: 70%;
+}
+.peli-cartel{
+  width: 190px;
+  height: 270px;
+}
+.peli-titulo{
+  text-align: center;
+}
+.peli-descripcion{
+  text-align: justify;
+    margin-bottom: 10px;
+}
+.peli-twitter{
+  float: left;
+width: 100px;
+  height: 20px;
+  padding: 5px;
+  font-weight: bolder;
+  color: white;
+  background: #06b5f0;
+}
+.peli-facebook{
+  float: left;
+width: 100px;
+  height: 20px;
+  padding: 5px;
+  font-weight: bolder;
+  color: white;
+  background: #3965a1;
+}
+.bck-twitter{
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url(../img/icons/sprite_share.png) no-repeat;
+  background-position: 0px -22px;
+  background-size: cover;
+    margin-right: 5px;
+}
+.bck-facebook{
+  float: left;
+    width: 20px;
+  height: 20px;
+  background: url(../img/icons/sprite_share.png) no-repeat;
+  background-position: 0px 0px;
+  background-size: cover;
+    margin-right: 5px;
+}
+.stars-div{
+  width: 30px;
+  height: 30px;
+  background: url(../img/star_sprite.gif) no-repeat;
+  background-position: 0px 0px;
+}
+.bck-move{
+  float: left;
+    background-position: 0px -30px;
+}
+.bck-nomove{
+  float: left;
+    background-position: 0px 0px;
+}
+.rating-stars{
+  list-style: none;
+  padding: 0;
+}
+.rating-stars li{
+  float: left;
+}
+.nota-div{
+    width: 45px;
+  height: 35px;
+  border: 5px rgb(72, 184, 159) solid;
+  border-radius: 30%;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 5px;
+  background: rgb(226, 226, 226);
+  text-align: center;
+  float: left;
+}
+.notas-div{
+ height: 56px;
+}
+.num-votos{
+    margin: 35px 0 0 10px;
+  float: left;
+}
+.peli-loves{
+  cursor: pointer;
+  padding: 5px;
+    height: 50px;
+}
+.peli-loves-bg{
+  float: left;
+  width: 40px;
+  height: 39px;
+  background: url("../img/fav.png");
+  background-size: contain;
+    margin-right: 5px;
+}
+.peli-loves-bg-si{
+  float: left;
+  width: 40px;
+  height: 39px;
+  background: url("../img/fav2.png");
+  background-size: contain;
+    margin-right: 5px;
+}
+.peli-loves:hover .peli-loves-bg{
+  background: url("../img/fav2.png");
+  background-size: contain;
+}
+
+
+.peli-loves-txt span{
+    font-size: 24px;
+  vertical-align: -webkit-baseline-middle;
+}
+.loves-container{
+  float: left;
+  width: 50%;
+}
+.users-love-item{
+  float: left;
+  width: 31%;
+}
+.users-love-item img{
+width: 60px;
+  border-radius: 50%;
+  border: 1px rgba(0, 0, 0, 0.34) solid;
+  height: 60px;
+}
+.users-love-item img:hover{
+  box-shadow: 0px 0px 1px black;
+}
+.users-love-item-user{
+  /* border: 1px white solid; */
+  padding: 5px;
+  background: rgba(219, 219, 219, 0.8);
+  width: 115px;
+  height: 65px;
+   display: none; 
+  position: absolute;
+  margin-left: 60px;
+}
+.users-love-item-user:before{
+  position: absolute;
+  display: inline-block;
+  border-top: 10px solid transparent;
+  border-right: 15px solid #FFF;
+  border-bottom: 10px solid transparent;
+  border-right-color: rgba(219, 219, 219, 0.54);
+  left: -15px;
+  top: 20px;
+  content: '';
+}

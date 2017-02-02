@@ -1,0 +1,458 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+    color: #444;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+    height: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto Condensed';
+}
+a{
+    text-decoration: none;
+}
+.body-bg{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.body-bg-img{
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.overlay_bg_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(194,194,194,0.59);
+}
+.body-bg-img img{
+    min-width: 100%;
+    min-height: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#header{
+    height: 100px;
+    background-color: rgba(34,34,34,1.00);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#content{
+    padding: 30px;
+    margin: 0 0 40px;
+    width: 1070px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    min-height: 900px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(34,34,34,1.00);
+    position: relative;
+    margin-top: 36px;
+}
+.footer-slogan{
+    float: left;
+    width: 33%;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#content-main{
+    background: white;
+    float: left;
+    width: 70%;
+    padding: 20px;
+    margin: 0 0 30px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.1);
+    min-height: 629px;
+}
+.content-right{
+    background: white;
+    /*    float: left;
+        width: 22%;*/
+    padding: 15px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.1);
+    margin: 0 0 0 15px;
+    /*position: relative;*/
+}
+
+#header-main{
+    width: 1070px;
+    margin: 0 auto;
+}
+.header-logo{
+    width: 15%;
+    float: left;
+}
+.header-menu{
+    width: 60%;
+    float: left;
+}
+.header-login{
+    float: left;
+    width: 15%;
+    max-width: 45px;
+    border-left: 2px white solid;
+    padding: 9px;
+}
+.header-login a{
+    color: white;
+}
+.header-login a:hover{
+    color: red;
+}
+.header-menu ul{
+    list-style: none;
+}
+.header-menu li{
+    float: left;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 7px;
+    color: white;
+
+}
+.header-menu li a{
+    color: white;
+}
+.header-menu li a:hover{
+    color: red;
+}
+.login-icon{
+    float: left;
+    width: 50%;
+}
+.login-icon img{
+    width: 60px;
+    height: 60px;
+}
+.login-text{
+    float: left;
+    width: 50%;
+    font-size: 25px;
+}
+
+.social-container{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.social{
+    float: left;
+    width: 84px;
+    height: 84px;
+    background: url(../img/icons/sprite_social.png);
+}
+.social1{
+    background-position: 0px 84px;
+    margin-right: 12px;
+}
+.social2{
+    background-position: 252px 84px;
+    margin-right: 12px;
+}
+.social3{
+    background-position: 84px 84px;
+}
+.social1:hover{
+    background-position: 0px 168px;
+    margin-right: 12px;
+}
+.social2:hover{
+    background-position: 252px 168px;
+    margin-right: 12px;
+}
+.social3:hover{
+    background-position: 84px 168px;
+}
+
+.footer-main{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.notices{
+    width: 49%;
+    height: 200px;
+    float: left;
+    background-size: contain;
+    position: relative;
+    box-shadow: 0px 0px 5px black;
+}
+.notices-title{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-weight: bolder;
+    width: 97%;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    padding: 5px;
+}
+
+.estrenos{
+    padding: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 47%;
+    border-left: 3px rgb(68, 68, 68) solid;
+}
+.estrenos-title{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.estrenos-item{
+    border-bottom: 1px grey solid;
+    width: 100%;
+    float: left;
+    margin: 2px;
+}
+.estrenos-item-left{
+    float: left;
+    width: 38%;
+}
+.estrenos-item-right{
+    float: left;
+    width: 62%;
+}
+.estreno-title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.estrenos-item-left img{
+    width: 100px;
+    height: 150px;
+}
+
+.right-title{
+    border-bottom: 2px grey solid;
+    font-weight: bold;
+    font-size: 20px;
+}
+.item-list{
+    /*position: fixed;*/
+    padding: 10px;
+    background: white;
+    /*    float: left;
+        width: 17%;*/
+    border-left: 3px rgb(68, 68, 68) solid;
+}
+.item-list-2{
+    margin-left: 2%;
+    padding: 10px;
+}
+.cartelera-hueco{
+    background-color: white;
+    padding: 1px;
+    /*    margin-top: 10px;*/
+    float: left;
+    width: 28.5%;
+    margin-top: 70px;
+    /*    border-left: 3px rgb(68, 68, 68) solid;*/
+}
+.items{
+    padding: 10px;
+    background: white;
+    /*    margin-top: 10px;
+        margin-left: 31%;*/
+    /*    float: left;
+        width: 68%;*/
+    /*border-left: 3px rgb(68, 68, 68) solid;*/
+}
+.top-peli-item{
+    padding: 5px;
+    height: 53px;
+    border-bottom: 1px rgb(218, 218, 218) solid;
+    border-left: 5px white solid;
+
+}
+.top-peli-item:hover{
+    border-left: 5px rgb(0, 178, 255) solid;
+}
+.top-peli-item-nota{
+    float: left;
+    width: 20%;
+    font-size: 30px;
+    color: rgb(0, 178, 255);
+    font-weight: bold;
+    text-shadow: -1px 1px 1px black;
+    margin-top: 5px;
+}
+.top-peli-item-img{
+    float: left;
+    width: 20%;
+}
+.top-peli-item-img img{
+    width: 40px;
+    height: 53px;
+}
+.top-peli-item-title{
+    height: 54px;
+}
+.top-peli-item-title span{
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.item_mini{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 5px 3px;
+}
+.item_mini img{
+    width: 60px;
+    height: 60px;
+}
+.mini_nd{
+    width: 23px;
+    height: 18px;
+    background-color: rgb(229, 148, 0);
+    position: relative;
+    bottom: 14px;
+    left: 39px;
+    text-align: center;
+    color: white;
+    border: 1px gray solid;
+    /* font-size: x-small; */
+    font-size: 13px;
+    /* font-weight: bold; */
+}
+.mini_name{
+    width: 50px;
+    background-color: black;
+    margin-top: 0;
+    color: white;
+    padding: 1px 5px;
+    margin-top: -5px;
+    text-align: center;
+    font-size: 13px;
+}
+th{
+    background: rgba(30, 156, 225, 0.57);
+}
+
+.full-desc{
+    float: left;
+    width: 47%;
+    padding: 6px;
+    margin-left: 10px;
+}
+.big_logo{
+    width: 400px;
+    margin: 0 auto;
+}
+.big_logo img{
+    height: 100px;
+    width: 250px;
+}
+#input-nd{
+    width: 100%;
+    font-size: 25px;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    /*    margin: 5px;
+        padding: 5px;*/
+    text-align: center;
+}
+.boton-add{
+    border: 2px white solid;
+    background-color: rgb(65, 255, 255);
+    padding: 5px;
+    /* font-weight: bold; */
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 15px;
+}
+.boton-add:hover{
+    background: white;
+    border: 2px rgb(65, 255, 255) solid;
+    cursor: pointer;
+    color: black;
+    text-shadow: 0px 0px 5px white;
+}
+.boton-chng{
+    height: 30px;
+    /* margin: 5px; */
+    border: 2px white solid;
+    background-color: orange;
+    color: white;
+    /* padding: 5px; */
+}
+.boton-chng:hover{
+    border: 2px orange solid;
+    background: white;
+    color: black;
+}
+
+/*LATERAL TOP*/
+.valor_dia{
+    float: left;
+    width: 50%;
+}
+.valor_ayer{
+    float: left;
+    width: 50%;
+}
+.top_fila_name{
+    /*  margin-left: 15px;*/
+    color: blue;
+}
+.top_fila{
+    margin-top:5px;
+    border-bottom: 1px #B9B9B9 solid;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.cabecera_top{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #00FFC8;
+    text-shadow: -1px 2px 4px black;
+}
+.mini-icon{
+    width: 35px;
+    vertical-align: middle;
+}
+.mini-icon-insert{
+    max-width: 45px;
+    width: 15%;
+    vertical-align: middle;
+}
+.input-precio{
+    width: 80%
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+    padding: 1px 5px !important;
+
+}
